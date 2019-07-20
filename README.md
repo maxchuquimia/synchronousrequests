@@ -1,12 +1,12 @@
 # SynchronousRequests
 
-An extension on `URLSession` to allow requesting data synchronously.
+A Swift package that provides an extension on `URLSession` to allow requesting data synchronously.
 
 ### Standard Use
 
 ```swift
-    let (data, response, error) = URLSession.shared.synchronousDataTask(with: request)
-    // ... unwrap `data`, `response`, and `error` as per usual
+let (data, response, error) = URLSession.shared.synchronousDataTask(with: request)
+// ... unwrap `data`, `response`, and `error` as per usual
 ```
 
 ### Throwing Example
